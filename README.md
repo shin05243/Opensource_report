@@ -14,6 +14,6 @@
 <hr/>
 
 ### 작동 과정
-<img src="img/시스템 개요.png" alt="Example Image" width="500"/>
+<img src="img/Strategic Plan (1).png" alt="Example Image" width="500"/>
 
 
