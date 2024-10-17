@@ -5,7 +5,8 @@ import json
 from folium.plugins import MiniMap
 
 DATA_FILE = 'locations.json'
-
+#코드를 하나 하나 찾아보려 들어온 당신은 코딩에 열정이 많은 분이로군요 이 프로그램은 제가 1학기 당시 과제로 제출하려 만든 숭실대 지도 프로그램입니다.
+#제가 학교의 편의시설의 위치를 직접발로뛰며 하나하나 좌표를 딴 노력이 들어간 프로그램이니 사용하실분은 유용하게 사용해주세요.
 
 def load_data():
     try:
@@ -29,7 +30,7 @@ def merge_data(initial_data, loaded_data):
 custom_locations = load_data()
 
 def show_category_map(category):
-    m = folium.Map(location=(37.496344, 126.957019), zoom_start=17)
+    m = folium.Map(location=(37.496344, 126.957019), zoom_start=18)
     minimap = MiniMap()
     m.add_child(minimap)
 
